@@ -1,0 +1,438 @@
+.header {
+  background-color: #454545;
+  padding: 15px 0px;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  width: 100%;
+}
+.header .uphome{
+	float:right;
+	right:20px;
+	display: block;
+	background-image: url("mysprite.png");
+	background-position: -128px 0px;
+	width: 52px;
+	height: 55px;
+	position: relative;
+	z-index: 200;
+  cursor: pointer;
+  display: none;
+}
+.header .uphome:hover{
+	background-position: -192px 0px;
+}
+.header .icons{
+	 width: 375px;
+	  margin-left: auto;
+  margin-right: auto;
+}
+.header .icons span{
+  float: left;
+  display: block;
+  background-image: url("mysprite.png");
+  width: 52px;
+  height: 55px;
+  margin-right: 20px;
+  position: relative;
+  z-index: 110;
+}
+
+.header .icons .about-me-icon {
+  background-position: 0px 0px;
+ 
+}
+
+.header .icons .about-me-icon:hover{
+background-position: -64px 0px;	
+
+}
+.header .icons .education-icon{
+	background-position: 0px -54px;
+}
+
+.header .icons .education-icon:hover{
+	background-position: -64px -54px;
+}
+.header .icons .coolstuffs-icon{
+	background-position: 0px -108px;
+}
+
+.header .icons .coolstuffs-icon:hover{
+	background-position: -64px -108px;
+}
+.header .icons .skills-icon{
+  background-position: 0px -163px;
+}
+
+.header .icons .skills-icon:hover{
+  background-position: -64px -163px;
+}
+
+.Bender-Bold {
+  font-family: Bender-Bold;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.Bender-Black {
+  font-family: Bender-Black;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+}
+@font-face {
+  font-family: qubix;
+  font-style: normal;
+  src: url("qubix.ttf");
+}
+.green {
+  color: #b9e541;
+}
+.white {
+  color: #fff;
+}
+.qubix {
+  font-family: qubix;
+}
+.large {
+  font-size: 20px;
+}
+.no-margin {
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-size: 18px;
+}
+.clear {
+  clear: both;
+}
+a:link {
+  text-decoration:none;
+  color: #000000;
+}    
+a:visited {
+  text-decoration:none;
+  color: #000000;
+} 
+a:hover {
+  text-decoration:underline;
+  color: #000000;
+}   
+a:active {
+  text-decoration:underline;
+  color: #000000;
+} 
+
+a.feed:link {
+  text-decoration:none;
+  color: #ffffff;
+}    
+a.feed:visited {
+  text-decoration:none;
+  color: #ffffff;
+} 
+a.feed:hover {
+  text-decoration:underline;
+  color: #ffffff;
+}   
+a.feed:active {
+  text-decoration:underline;
+  color: #ffffff;
+} 
+
+.post-avatar {
+    border-radius: 120px;
+    float: center;
+    margin-left: 1em;
+    outline-width: 50px;
+    outline-color: grey ;
+    outline-style: fill;
+    border-image-outset: 3px;
+}
+[data-icon]:before {
+  font-family: 'FontAwesome'; 
+  font-size: 130%;
+  color: white;
+  margin-right: .5em;
+  content: attr(data-icon);
+  speak: none; 
+}
+
+
+ul li{
+  float:left;
+  margin:0.3em;
+  list-style:none;
+  text-align: center;
+}
+
+ul.feed li{
+float:left;
+  margin:1.5em;
+  list-style:none;
+  text-align: center;
+
+}
+
+
+ul.resume{
+   float:center;
+   padding: 10px 350px;
+  margin:0.3em;
+  list-style:none;
+  text-align: center; 
+}
+
+ul.resume li{
+  float:center;
+  margin:0.3em;
+  list-style:none; 
+}
+
+ul.skills{
+  padding-left:0;
+  font-size:0.9em;
+}
+ul.skills li{
+  float:left;
+  margin:0.3em;
+  list-style:none;
+}
+
+ul.buttons li{
+  border-radius:3px;
+  padding:4px 6px;
+  color:#FFF;
+  text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);
+  line-height:15px;
+  font-weight:bold;
+  font-size:0.9em;
+  background-color:#3a87ad;
+}
+
+
+ul.buttons li.beginner{  
+ background-color:#3498db;
+}
+ul.buttons li.novice{  
+ background-color:#f39c12;
+}
+ul.buttons li.geek{  
+ background-color:#2ecc71;
+}
+
+
+
+.icon-alone {
+  display: inline-block; 
+}
+.intro {
+  margin-top: 80px;
+  background-color: #F5F0F0;
+  height: 608px;
+  width: 100%;
+  min-width: 1280px;
+}
+.intro .main {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro .main .content {
+  padding-top: 60px;
+  width: 650px;
+  height: 226px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 5;
+}
+.intro .main .content .my-name {
+    font-family: 'Cherry Swash', cursive;
+    font-size: 48px;
+    text-align: center;
+    text-transform: none;
+}
+
+.intro .main .content .detail {
+  text-align: center;
+  line-height: 26px;
+  text-transform:none;
+}
+
+.folds {
+  min-height: 625px;
+  min-width: 1280px;
+}
+
+
+.folds .text {
+  font-family: Bender-Bold;
+  text-align: justify;
+  font-weight: normal;
+}
+.folds .semi-circle {
+  margin-left: auto;
+  margin-right: auto;
+  height: 180px;
+  width: 360px;
+  border-radius: 0 0 360px 360px;
+  -moz-border-radius: 0 0 360px 360px;
+  -webkit-border-radius: 0 0 360px 360px;
+  padding: 1px;
+}
+.folds .icon {
+  background-image: url("sprites.png");
+  #background-position: -90px 493px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 51px;
+  height: 51px;
+  margin-top: 25px;
+}
+.folds .fold-name {
+  font-family: 'Cherry Swash', cursive;
+  font-size: 32px;
+  margin-top: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+.folds .fontbig {
+  font-family: 'Overlock SC', cursive;
+  font-size: 23px;
+  margin-top: 25px;
+  text-align: left;
+  color: #000;
+}
+
+.folds .name {
+  font-family: 'Fenix', serif;
+  font-size: 22px;
+  color: #fff;
+  text-align: left;
+  width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.folds .content {
+  font-family: 'Fenix', serif;
+  font-size: 22px;
+  width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.folds .center {
+  font-family: 'Fenix', serif;
+  font-size: 22px;
+  width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.folds .right {
+  font-family: 'Fenix', serif;
+  font-size: 15px;
+  width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+
+.coolstuffs-me {
+  border-top: 3px solid #aedc32;
+  background-color: #b9e541;
+}
+
+.coolstuffs-me .icon {
+  background-position: -90px 493px;
+}
+
+
+.about-me {
+  background-color: #3498db;
+  border-top: 3px solid #3498db;
+}
+
+.about-me .icon {
+  background-position: -90px 395px;
+}
+
+.about-me .center {
+    text-align: center;
+}
+
+.skills-me {
+  background-color: #7f8c8d;
+  border-top: 3px solid #7f8c8d; 
+}
+
+.skills-me .icon {
+  background-position: -90px 304px;
+}
+
+.skills-me .rule-icon {
+  background-image: url("sprites.png");
+  background-position: 0px 1352px;
+  display: block;
+  width: 294px;
+  height: 67px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills-me .rules-text {
+  border-bottom: black 1px solid;
+  margin-bottom: 20px;
+}
+.skills-me .text {
+  text-transform: uppercase;
+}
+
+.skills-me .content .speakers {
+  display: block;
+  background-image: url("sprites.png");
+  background-position: 0px 2855px;
+  width: 300px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+
+.education-me {
+  background-color: #1da37d;
+  border-top: 3px solid #1da37d;
+}
+
+.education-me .icon {
+  background-position: -90px 120px;
+}
+
+.footer {
+  background-color: #ffffff;
+  text-align: center; 
+  min-height: 50px;
+  overflow: hidden;
+  min-width: 1280px;
+}
+.footer p {
+  margin: 0;
+  padding-top: 20px;
+}
+.footer .links {
+  color: #1da37d;
+}
+.footer .links a {
+  color: #1da37d;
+  text-decoration: none;
+}
+.footer .links a:hover {
+  color: white;
+}
+
+
